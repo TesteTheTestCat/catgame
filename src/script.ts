@@ -174,7 +174,7 @@ function toPlaces(x: Decimal, precision: number, maxAccepted: number) {
 // endregion
 
 // region start of teste's shitty code
-
+//hi
 let catsPerSecond = Decimal.dZero;
 
 const formatForH = (x: Decimal | number) => format(x);
