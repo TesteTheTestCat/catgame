@@ -172,7 +172,7 @@ function toPlaces(x: Decimal, precision: number, maxAccepted: number) {
   return result;
 }
 // endregion
-
+// hi
 // region start of teste's shitty code
 
 let catsPerSecond = Decimal.dZero;
