@@ -106,6 +106,7 @@ function resetCatData(force = false) {
     data.energyCats = Decimal.dZero;
 }
 
+// we have a function for adding 1 to catlimit???
 function incrementCatLimit() {
     data.catLimit = data.catLimit.plus(1);
 }

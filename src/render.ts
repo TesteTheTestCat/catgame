@@ -126,7 +126,7 @@ export function updateTabs() {
         element.style.display = tab === currentTab._ ? "inline" : "none";
     }
 
-    // Hide the loading element after a certain time
+    // Hide the loafing element after a certain time
     if (loaftime._ > 10) {
         gel("loafing").style.display = "none";
     } else {

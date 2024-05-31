@@ -1,5 +1,6 @@
 import Decimal from "break_eternity.js";
 
+// basically all of jacorb's actually good code for formatting
 export function exponentialFormat(num: Decimal, precision: number) {
     let e: string | number = num.exponent;
     let m = num.mantissa;
